@@ -15,7 +15,12 @@ html {
    font-family: roboto, arial, helvetica, sans-serif;
 }
 
+body {
+   max-inline-size: 1440px;
+}
+
 strong {
+   display: inline-block;
    padding: 5px 10px;
    border-inline-start: 5px solid #ffa500;
    background-color: #d6d6d6;
@@ -31,41 +36,40 @@ strong {
 }
 
 .header__title {
-   inline-size: max-content;
    margin-block-end: 20px;
    color: #ffffff;
-}
-
-.header__paragraph {
-   inline-size: max-content;
 }
 
 /* || Main
 ===================================================== */
 
 .main {
-   min-block-size: 100vh;
+   display: block;
+   block-size: 100vh;
    background-color: #d6d6d6;
 }
-
 
 /* || footer 
 ===================================================== */
 
 .footer{
-   background-color: #663399;
+   background-color: #401769;
    display: flex;
    justify-content: center;
    align-items: center;
    padding: 20px;
-   min-block-size: 125px;
-   
+   block-size: 100px;
 }
 
-.footer__paragraph {
-   border-block-start: 2px solid #ffffff;
+.footer__text {
    text-align: center;
-   inline-size: 25%;
-   padding: 10px ;
+   color: #ffffff;
+}
+
+.text__link {
+   text-decoration: none;
+}
+
+.text__link--color {
    color: #ffffff;
 }
