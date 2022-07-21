@@ -1,0 +1,71 @@
+
+
+/* || Estilos Gerais
+===================================================== */
+
+* {
+   margin: 0;
+   padding: 0;
+   border: none;
+   line-height: 1;
+   box-sizing: border-box;
+}
+
+html {
+   font-family: roboto, arial, helvetica, sans-serif;
+}
+
+strong {
+   padding: 5px 10px;
+   border-inline-start: 5px solid #ffa500;
+   background-color: #d6d6d6;
+   border-radius: 5px;
+}
+
+/* || Header
+===================================================== */
+
+.header {
+   background-color: #663399;
+   padding: 20px;
+}
+
+.header__title {
+   inline-size: max-content;
+   margin-block-end: 20px;
+   color: #ffffff;
+}
+
+.header__paragraph {
+   inline-size: max-content;
+}
+
+/* || Main
+===================================================== */
+
+.main {
+   min-block-size: 100vh;
+   background-color: #d6d6d6;
+}
+
+
+/* || footer 
+===================================================== */
+
+.footer{
+   background-color: #663399;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   min-block-size: 125px;
+   
+}
+
+.footer__paragraph {
+   border-block-start: 2px solid #ffffff;
+   text-align: center;
+   inline-size: 25%;
+   padding: 10px ;
+   color: #ffffff;
+}
