@@ -1,5 +1,4 @@
 
-
 /* || Estilos Gerais
 ===================================================== */
 
@@ -16,7 +15,8 @@ html {
 }
 
 body {
-   inline-size: 1350px;
+   max-inline-size: 1350px;
+   min-inline-size: 1300px;
    margin: 0 auto;
 }
 
